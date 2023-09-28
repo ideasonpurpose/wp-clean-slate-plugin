@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name: Clean Slate
- * Plugin URI: https://www.github.com/ideasonpurpose
- * Description: An experimental plugin for removing ALL WordPress styles from the front end
- * Version: 0.0.1
- * Author:            Ideas On Purpose
- * Author URI:        https://www.ideasonpurpose.com
- * License: MIT
- * Requires at least: 6
- * Requires PHP: 8
+ * Plugin Name:        Clean Slate
+ * Plugin URI:         https://github.com/ideasonpurpose/wp-clean-slate-plugin
+ * Description:        An experimental plugin for removing ALL WordPress styles from the front end
+ * Version:            0.0.1
+ * Author:             Ideas On Purpose
+ * Author URI:         https://www.ideasonpurpose.com
+ * License:            MIT
+ * Requires at least:  6
+ * Requires PHP:       8
  *
  */
 
