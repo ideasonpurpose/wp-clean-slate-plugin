@@ -1,6 +1,6 @@
 {
   "name": "wp-clean-slate-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An experimental plugin for removing ALL WordPress styles from the front end",
   "homepage": "https://github.com/ideasonpurpose/wp-clean-slate-plugin#readme",
   "license": "MIT",
