@@ -1,0 +1,36 @@
+{
+  "name": "wp-clean-slate-plugin",
+  "version": "0.0.0",
+  "description": "An experimental plugin for removing ALL WordPress styles from the front end",
+  "homepage": "https://github.com/ideasonpurpose/wp-clean-slate-plugin#readme",
+  "license": "MIT",
+  "author": "Ideas On Purpose (https://www.ideasonpurpose.com/)",
+  "contributors": [
+    "Joe Maller <joe@ideasonpurpose.com>",
+    "Codrin Pavel <zerospree@yahoo.com>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "composer": "npm run composer:install",
+    "composer:install": "docker-compose run --rm composer",
+    "composer:require": "docker-compose run --rm composer require",
+    "composer:update": "docker-compose run --rm composer update",
+    "preversion": "npm run wordpress:latest",
+    "version": "version-everything && auto-changelog && git add -u",
+    "wordpress:latest": "docker-compose run --rm wp-tested"
+  },
+  "prettier": "@ideasonpurpose/prettier-config",
+  "devDependencies": {
+    "@ideasonpurpose/prettier-config": "^0.0.4",
+    "@prettier/plugin-php": "^0.20.1",
+    "auto-changelog": "^2.4.0",
+    "prettier": "^3.0.3",
+    "version-everything": "^0.11.0"
+  },
+  "version-everything": {
+    "files": [
+      "README.md",
+      "wp-clean-slate.php"
+    ]
+  }
+}

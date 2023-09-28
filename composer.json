@@ -1,0 +1,15 @@
+{
+  "name": "ideasonpurpose/wp-clean-slate-plugin",
+  "description": "An experimental plugin for removing ALL WordPress styles from the front end",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "IdeasOnPurpose\\": [
+        "lib"
+      ]
+    }
+  },
+  "require": {
+    "kint-php/kint": "^5.0"
+  }
+}
