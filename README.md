@@ -12,6 +12,10 @@ Exceptions are provided for necessary components like the WordPress admin-bar.
 
 The plugin may also be useful for revealing where a theme is depending on WordPress injected styles. Adding this to an existing site will likely reveal visual differences where WordPress styles were unexpectedly interacting with the theme's stylesheets.
 
+## Installation
+
+Download the latest zipfile from the [Releases page](https://github.com/ideasonpurpose/wp-clean-slate-plugin/releases), then upload to a development WordPress site. 
+
 ## &nbsp;
 
 #### Brought to you by IOP
